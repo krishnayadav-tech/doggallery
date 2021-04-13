@@ -1,0 +1,80 @@
+.customsearch{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 500px;
+    min-height: 400px;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: gray;
+    width: 100%;
+    align-self: center;
+    position: relative;
+}
+
+.header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close {
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    padding: 5px 5px;
+    transform: translate(0%, -50%);
+}
+
+.breedselect{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.breedselect select{
+    width: 30%;
+    background-color: grey;
+}
+
+.breedselect input{
+    background-color: grey;
+    padding: 10px;
+    border: none;
+}
+
+.breedselect input::placeholder {
+    color: black;
+}
+
+.form{
+    text-align: center;
+    
+}
+
+.submitbtn{
+    text-align: center;
+    padding: 10px;
+    background-color: #2e8a28;
+    text-transform: uppercase;
+    color: white;
+    width: 25%;
+}
+
+.imageviewer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    overflow-x: auto;
+}
+

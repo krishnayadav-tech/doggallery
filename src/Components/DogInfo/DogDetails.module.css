@@ -1,0 +1,59 @@
+.doginfo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 500px;
+    /* height: 400px; */
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: gray;
+    width: 100%;
+    align-self: center;
+    position: relative;
+}
+
+.header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close {
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    padding: 5px 5px;
+    transform: translate(0%, -50%);
+}
+
+.threeimages p{
+    margin: 10px;
+}
+
+.threeimagephoto{
+    display: flex;
+    flex-direction: row;
+}
+
+.threeimagephoto img{
+    width : 200px;
+    height: 200px;
+}
+
+.subbreedviewer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    overflow-x: auto;
+}
+

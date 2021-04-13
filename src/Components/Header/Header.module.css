@@ -1,0 +1,25 @@
+.Header{
+    height: 60px;
+    background-color : lightskyblue;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    
+}
+
+.Header h1{
+    display: flex;
+    align-items: center;
+}
+
+.Header .customsearch{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding : 10px 10px;
+    background-color: #2e8a28;
+    border: none;
+    font-size: 16px;
+    color : white;
+}
