@@ -11,6 +11,7 @@
 .Header h1{
     display: flex;
     align-items: center;
+    margin-left: 1rem;
 }
 
 .Header .customsearch{
@@ -22,4 +23,10 @@
     border: none;
     font-size: 16px;
     color : white;
+}
+
+@media (max-width : 700px) {
+    .Header{
+        justify-content: left;
+    }
 }
